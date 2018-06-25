@@ -1,21 +1,27 @@
 <html>
+<link rel="stylesheet" href="style.css">
 <body>
+	<div class="login">
 	<center>
 		<form action="sign_in.php" method="post">
-			<input type="text" name="login" autocomplete="on" value="" placeholder="Username"/>
+			<input class="text" type="text" name="login" autocomplete="on" value="" placeholder="Username"/>
 			<br />
-			<input type="password" name="passwd" autocomplete="off" value="" placeholder="Password"/>
+			<input class="text" type="password" name="passwd" autocomplete="off" value="" placeholder="Password"/>
 			<br />
-			<input type="submit" name="submit" value="Sign in"/>
+			<input class="submit" type="submit" name="submit" value="Sign in"/>
 			<br />
 		</form>
 		<form action="sign_up.html" method="post">
-			<input type="submit" name="submit" value="Sign up"/>
+			<input class="submit" type="submit" name="submit" value="Sign up"/>
 			<br />
 		</form>
 		<form action="modify.html" method="post">
-			<input type="submit" name="Modify password" value="Modify password"/>
+			<input class="submit" type="submit" name="Modify password" value="Modify password"/>
+		</form>
+		<form action="index.php" method="post">
+			<input class="submit" type="submit" name="Without registartion" value="Without registartion"/>
 		</form>
 	</center>
+	</div>
 </body>
 </html>

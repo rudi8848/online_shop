@@ -22,6 +22,8 @@ if ($_SESSION["login_user"] == "")
 		$tab = unserialize(file_get_contents("./private/database"));
 		while ($tab[$i])
 		{
+			if ($tab[$i]["category"] == "monocles")
+			{
 		?>
 		<div class="index_row">
 			<div class="index_item">
@@ -49,6 +51,7 @@ if ($_SESSION["login_user"] == "")
 </body>
 </html>
 <?php
+}
 ++$i;
 }
 ?>

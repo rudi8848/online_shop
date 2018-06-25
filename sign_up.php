@@ -11,8 +11,6 @@ if ($_POST[$login] && $_POST[$passwd] && $_POST[$submit] == $signup)
 	$usr = unserialize(file_get_contents("./private/passwd"));
 	foreach ($usr as $key => $value)
 	{
-		echo "login = $value[$login]<br />";
-		echo "post = $_POST[$login]<br />";
 		if ($value[$login] == $_POST[$login])
 		{
 			$flag = 1;

@@ -1,0 +1,135 @@
+body {
+	padding: 0;
+	margin: 0 auto;
+	font-family: verdana, arial, sans-serif;
+}
+.header {
+	height: 400px;
+	background-image: url(img/gentleman.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	border-bottom: 2px solid #AA363B;
+}
+.dashboard {
+	width: 200px;
+	padding: 5px 10px;
+	border-radius: 10px;
+	border: 1px solid #AA363B;
+	position: relative;
+	left: 70%;
+}
+.dashboard > p {
+	color:  #AA363B;
+	font-weight: bold;
+}
+
+.submit {
+	background-color:  #AA363B;
+	color: white;
+	padding: 5px;
+	border-radius: 2px;
+	margin: 2px;
+}
+.main-container {
+	margin: 0 auto;
+	padding: 0 0;
+	width: 100%;
+}
+.categories {
+	width: 200px;
+	float: left;
+	padding: 5px;
+	color: black;
+	text-decoration: none;
+	position: relative;
+	left: 69.5%;
+	border: 1px solid #AA363B;
+	border-radius: 10px;
+}
+h1 {
+	color: #AA363B;
+}
+.products {
+	width: 60%;
+	float: left;
+	display: inline-block;
+	min-width: 1000px;
+}
+.footer {
+	background-color: : #AA363B;
+	height: 50px;
+	clear: both;
+}
+li {
+	list-style: none;
+	padding: 5px;
+	color: black;
+	padding-left: 0;
+	margin-left: 0;
+}
+.categories li:hover {
+	background-color:  #AA363B;
+	text-align: center;
+	color: black;
+
+}
+.categories > a li:hover {
+	color: white;
+}
+.categ {
+	border: 10px solid border;
+	text-decoration: none;
+	color: black;
+	border-radius: 5px;
+
+}
+.categories a:hover {
+	color: white;
+}
+.item {
+	width: 200px;
+	float: left;
+	display: inline-block;
+	font-size: 2vw;
+	text-align: center;
+	color:#AA363B;
+}
+.item img {
+	width: 160px;
+}
+.table_cart {
+	text-align: center;
+	vertical-align: middle;
+}
+.index_row {
+		width:100%;
+	}
+.index_item {
+	  float:left;
+	  width:31%;
+	  text-align: center;
+	  padding:1%;
+}
+.comment {
+	border:1px solid #AA363B;
+	border-radius: 10px;
+	padding:10px;
+	background-color:#fff;
+}
+.login input {
+	width: 30%;
+	border-radius: 10px;
+	height: 50px;
+	font-size: 15px;
+	border:1px solid #AA363B;
+}
+.submit {
+	background-color: #AA363B;
+	margin-top: 20px;
+}
+.text {
+	margin-top: 20px;
+	padding-left: 20px;
+}
+
+
